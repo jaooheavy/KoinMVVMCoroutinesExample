@@ -6,8 +6,8 @@ import kotlinx.coroutines.delay
 class RequestAPI() {
 
     suspend fun getFromAPIData(int: Int):String{
-        delay(3000)
-        return "Você cliclou $int vez"
+        delay(1000)
+        return "Você clicou $int vez"
     }
 
 }
